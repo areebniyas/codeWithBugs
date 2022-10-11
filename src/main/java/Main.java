@@ -8,6 +8,15 @@ public class Main {
             throw new IllegalAccessError();
 
         }
+
+        try{
+            System.out.println("Finally block cant be null bug");
+        }catch (Exception e){
+
+        }finally {
+            throw new IllegalAccessError();
+
+        }
     }
 
     public int error(int i){
