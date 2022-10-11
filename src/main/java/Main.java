@@ -24,4 +24,15 @@ public class Main {
 
         }
     }
+    
+      public void error3(){
+        try{
+            System.out.println("Finally block cant be null bug");
+        }catch (Exception e){
+
+        }finally {
+            throw new IllegalAccessError();
+
+        }
+    }
 }
