@@ -13,4 +13,8 @@ public class Main {
     public int error(int i){
         return i;
     }
+    
+      public int error2(int i){
+        return i;
+    }
 }
