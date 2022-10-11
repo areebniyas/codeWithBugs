@@ -14,45 +14,7 @@ public class Main {
         return i;
     }
     
-    public void error2(){
-        try{
-            System.out.println("Finally block cant be null bug");
-        }catch (Exception e){
-
-        }finally {
-            throw new IllegalAccessError();
-
-        }
-    }
-    
-      public void error3(){
-        try{
-            System.out.println("Finally block cant be null bug");
-        }catch (Exception e){
-
-        }finally {
-            throw new IllegalAccessError();
-
-        }
-    }
-          public void error4(){
-        try{
-            System.out.println("Finally block cant be null bug");
-        }catch (Exception e){
-
-        }finally {
-            throw new IllegalAccessError();
-
-        }
-              
-                  public void error5(){
-        try{
-            System.out.println("Finally block cant be null bug");
-        }catch (Exception e){
-
-        }finally {
-            throw new IllegalAccessError();
-
-        }
+      public int error2(int i){
+        return i;
     }
 }
